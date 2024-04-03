@@ -1,6 +1,6 @@
-import './App.css';
+import './my.css'
 import React from 'react';
-import Navbar from ' ./Navbar.js';
+import Navbar from './Navbar';
 import Home from './Home';
 
 

@@ -6,3 +6,6 @@ I'm mainly going to follow along the video tutorial from the channel "net ninja"
 
 here's a link if you're interested to see what tutorial I'm following:
 https://www.youtube.com/watch?v=9D1x7-2FmTA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=3
+
+to get the nodemodules folder for this react app enter in the terminal:
+npm install
