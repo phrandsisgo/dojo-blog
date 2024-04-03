@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from ' ./Navbar.js';
+import Home from './Home';
+
 
 function App() {
   const title ="Welcome to the new blog";
@@ -10,9 +12,7 @@ function App() {
     <div className="App">
         <Navbar />
         <div className="content">
-          <h1>App Component</h1>
-          <h2>{title}</h2>
-          <p>This App has been liked {likes} times</p>
+          <Home />
         </div>
         <a href={linguatechLink}>linguatech</a>
         <br />
