@@ -9,3 +9,5 @@ https://www.youtube.com/watch?v=9D1x7-2FmTA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRi
 
 to get the nodemodules folder for this react app enter in the terminal:
 npm install
+
+I have some understanding problems with outputting lists of #10
