@@ -10,4 +10,4 @@ https://www.youtube.com/watch?v=9D1x7-2FmTA&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRi
 to get the nodemodules folder for this react app enter in the terminal:
 npm install
 
-I have some understanding problems with outputting lists of #10
+I have some understanding problems with outputting lists of #10, And also how functions are beeing overgiven to other functions using "functions as Props" from video nr 13
