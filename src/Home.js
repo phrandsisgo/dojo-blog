@@ -9,6 +9,7 @@ const Home = () => {
     return (
     <div class="home">
         <BlogList blogs={blogs} title="All Blogs" />
+        <BlogList blogs={blogs.filter((blog) => blog.author === 'mario')} title="Marios Blogs" />
 
         <h2 style={{color:'blue'}}>Homepage</h2>
        
