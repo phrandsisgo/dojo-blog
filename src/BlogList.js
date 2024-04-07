@@ -13,5 +13,4 @@ const BlogList = ({blogs, title, handleDelete}) => {
 
     );
 }
- 
 export default BlogList;
