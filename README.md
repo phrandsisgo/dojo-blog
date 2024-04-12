@@ -1,5 +1,13 @@
 Hello, there 
 
+
+# to start the project:
+```bash
+npm run start
+
+//new terminal
+npx json-server --watch data/db.json --port 8000
+```
 This is just a excercise to learn the react framework and look what's possible with this.
 
 I'm mainly going to follow along the video tutorial from the channel "net ninja" 

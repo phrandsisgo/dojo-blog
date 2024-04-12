@@ -5,6 +5,7 @@ import BlogList from './BlogList';
 const Home = () => {
     //define a state variable called blogs and a function to update it called setBlogs
     const [blogs, setBlogs] = useState(null);
+    const [isPending, setIsPending] = useState(true);
 
     const [name, setName] = useState('mario');
     
@@ -17,11 +18,13 @@ const Home = () => {
         })
         .then(data => {
             setBlogs(data);
+            setIsPending(false);
         })
     }, []);
     return (
         <div className="home">
-            {blogs && <BlogList blogs={blogs} title="All Blogs!"/>}
+            {isPending && <div>Loading...</div>}
+            {blogs && <BlogList blogs={blogs} title="All Blogs!!"/>}
             <button onClick={()=>setName('luigi')}>change name</button>
             <p>{name}</p>
             <h2 style={{color:'blue'}}>Homepage</h2>
